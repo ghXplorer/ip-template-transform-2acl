@@ -19,7 +19,6 @@ import re
 import struct
 import pyperclip
 import datetime as dt
-from pprint import pprint
 from socket import inet_aton, inet_ntoa
 
 

@@ -83,8 +83,8 @@ choice = input('\n1 for standard_acl or 2 for obj_groups: ')
 current_date = dt.datetime.now().strftime('%H%M%d%m%y')
 
 if int(choice) == 1:
-	acl_unfold()
+    acl_unfold()
 elif int(choice) == 2:
-	acl_obj_groups()
+    acl_obj_groups()
 else:
-	print('wrong choice')
+    print('wrong choice')
